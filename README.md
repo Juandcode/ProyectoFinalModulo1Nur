@@ -31,4 +31,5 @@ En ambos casos se puede agregar mas porque dependen de abstracciones (es decir i
 ---
 ## Uso
 Ejecutar dotnet run y acceder a swagger
+
 Nota: Revisar reporteController para ver las instancias de los patrones de diseño
