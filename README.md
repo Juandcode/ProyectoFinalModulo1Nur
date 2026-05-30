@@ -9,6 +9,11 @@ footer o marca de agua, para finalizar se puede enviar mediante algun canal (API
 Los decoradores de reportes se basan en el rol, mientras el rol sea mas alto (Ejecutivo)
 el reporte es mas completo.
 
+Patrones usados: 
+- Strategy (para agregar los decoradores al reporte en base al rol)
+- Factory Method: para la creacion de los tipos de reportes (PDF,Excel)
+- Mediator: para el canal de envio (Correo, API)
+
 ---
 ![img_1.png](img_1.png)
 - BodyReport: aqui se pone lo que va a ir dentro del reporte, es decir la informacion del cuerpo
