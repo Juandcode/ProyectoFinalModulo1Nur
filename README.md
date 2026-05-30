@@ -4,10 +4,11 @@
 
 Creacion de reportes mediante roles (estrategia), tipo de reportes (PDF, Excel, etc),
 Ademas de la posibilidad de decorar el reporte y ponerle cifrado, encabezado,
-footer o marca de agua, para finalizar se puede enviar mediante algun canal (API, Correo)
+footer o marca de agua, para finalizar se puede enviar mediante algun canal (API, Correo).
 
-los decoradores de reportes se basan en el rol, mientras el rol sea mas alto (Ejecutivo)
+Los decoradores de reportes se basan en el rol, mientras el rol sea mas alto (Ejecutivo)
 el reporte es mas completo.
+
 ---
 ![img_1.png](img_1.png)
 - BodyReport: aqui se pone lo que va a ir dentro del reporte, es decir la informacion del cuerpo
